@@ -1,0 +1,25 @@
+Construction du score et des seuils
+
+Modele retenu : Random Forest
+Score utilise : score = (1 - probabilite_de_defaut) * 1000
+Seuil conseille sur la probabilite : 0.05
+Score cutoff conseille : 950
+
+Metriques au seuil retenu :
+threshold              0.050000
+score_cutoff         950.000000
+acceptance_rate        0.692387
+refusal_rate           0.307613
+bad_rate_accepted      0.015425
+bad_rate_refused       0.182567
+captured_defaults      0.840215
+
+Repartition des decisions :
+decision
+accept    0.692387
+reject    0.307613
+
+Repartition des bandes de risque :
+risk_band
+Medium    0.694167
+High      0.305833
